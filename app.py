@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask,render_template
 app = Flask(__name__)
 
 
@@ -7,7 +7,7 @@ print(__name__)
 
 @app.route('/')
 def Fun():
-    return 'Hello world,m'
+    return render_template('/static/html/index.html')
 
 @app.route('/about')
 def about():
