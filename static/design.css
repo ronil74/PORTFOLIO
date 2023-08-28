@@ -5773,19 +5773,18 @@ textarea {
 .navbar-default .navbar-collapse,
 .navbar-inverse .navbar-collapse {
     margin: 10px -5px;
-    box-shadow: none
 }
 
 .navbar-default .navbar-collapse .navbar-nav,
 .navbar-inverse .navbar-collapse .navbar-nav {
-    padding: 20px
+    padding: 10px
 }
 
 @media (min-width:768px) {
     .navbar-default .navbar-collapse,
     .navbar-inverse .navbar-collapse {
         margin: 0;
-        padding: 30px 0
+        padding: 10px 0
     }
     .navbar-default .navbar-collapse .navbar-nav,
     .navbar-inverse .navbar-collapse .navbar-nav {
