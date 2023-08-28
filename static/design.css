@@ -5444,6 +5444,7 @@ body.minimal {
 .hero-full-container .hero-full-wrapper .text-content {
     vertical-align: middle;
     display: table-cell
+    
 }
 
 .white-text-container h1,
@@ -5452,8 +5453,25 @@ body.minimal {
 .white-text-container h4,
 .white-text-container h5,
 .white-text-container p {
-    text-shadow: 0 1px 3px #000;
-    color: #fff
+    font-size:xx-large;
+    transform: scale(1.1);
+    animation: moveToRight 30s ease-in-out;
+    transition: 500ms linear;
+    text-shadow: 0 1px 3px #110000;
+    color: #f9f9f9
+    
+}
+
+@keyframes moveToRight{
+    0%{
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateX(150px);
+    }
+    100%{
+        transform: translateX(300px);
+    }
 }
 
 .white-text-container a {
